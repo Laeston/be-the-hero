@@ -20,10 +20,10 @@ routes.post('/incidents', IncidentController.create);
 routes.delete('/incidents/:id',IncidentController.delete);
 //routes.post('/incidents/:id',IncidentController.update);
 routes.get('/incidents',IncidentController.index);
-routes.get('/incidents/all',IncidentController.indexAll);
+routes.get('/profiles',IncidentController.indexAll);
 
 routes.get('/ongs',OngController.index);
-routes.get('/profiles',ProfileController.index);
+routes.get('/profile',ProfileController.index);
 routes.post('/sessions',SessionController.index);
 routes.post('/ongs', OngController.create);
 
